@@ -1,9 +1,9 @@
-import UseArrayExample from "./components/2Hooks/UseArrayExample";
+import { PostWithComment } from "./components/3UserInteraction/PostWithComments";
 
 function App() {
   return (
     <>
-      <UseArrayExample />
+      <PostWithComment content="The sky is blue" user="Alex" />
     </>
   );
 }
